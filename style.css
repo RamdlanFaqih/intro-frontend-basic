@@ -1,1 +1,96 @@
-/* css */
+/* desktop */
+h1 {
+    color: blue;
+    background-color: red;
+    font-size: 200px;
+}
+
+.title {
+    color: blue
+}
+
+.product-list {
+    display: flex;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.product {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.banner-content {
+    display: flex;
+    background-color: #a9a9a9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 12px;
+    padding-right: 92px;
+    padding-bottom: 10px;
+    padding-left: 12px;*/
+    padding: 12px 92px 10px 12px
+}
+
+.description span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.discount {
+    text-decoration-line: line-through;
+}
+
+.save {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 12px;
+    padding-right: 92px;
+    padding-bottom: 10px;
+    padding-left: 12px;*/
+    padding: 12px 10px 12px
+}
+
+.separator {
+    border-top: 1px solid;
+    padding-top: 12px
+}
+
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+} */
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* handphone */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
