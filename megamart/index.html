@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaMart Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="navbar-left">
+        <button class="menu-button">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <a href="#" class="logo">MegaMart</a>
+    </div>
+
+    <div class="navbar-center">
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" class="search-input" placeholder="Search essentials, groceries and more...">
+            <button class="filter-button">
+                <i class="fa-solid fa-list-ul"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="navbar-right">
+        <a href="#" class="nav-link">
+            <i class="fa-regular fa-user"></i>
+            <span>Sign Up/Sign In</span>
+        </a>
+        <a href="#" class="nav-link">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart</span>
+        </a>
+    </div>
+</header>
+
+<section class="product-section">
+  <div class="container">
+    <h2 class="section-title">
+      Grab the best deal on <span class="highlight-text">Smartphones</span>
+    </h2>
+
+    <div id="product-list" class="product-grid">
+      <!-- <div class="product-card">
+        <div class="discount-badge">56% OFF</div>
+        <div class="product-image">
+          <img src="../assets/img/product/samsungs22.png" alt="Galaxy S22 Ultra">
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Galaxy S22 Ultra</h3>
+          <div class="product-price">
+            <span class="current-price">₹32999</span>
+            <span class="original-price">₹74999</span>
+          </div>
+          <div class="product-savings">Save - ₹32999</div>
+        </div>
+      </div> -->
+  </div>
+</section>
+
+<section style="padding-left: 400px">
+  <input type="number" id="input-text">
+  <button id="beli-semua">Jalankan</button>
+  <h1 id="test-dom">Samsung</h1>
+  <h1 id="test-dom">Nokia</h1>
+
+  <h1 class="test-class">Test Class 1</h1>
+  <h1 class="test-class">Test Class 2</h1>
+
+  <h1 id="manipulasi">Test</h1>
+</section>
+
+<!-- Penambahan dan pengurangan element -->
+<section>
+  <button id="add-item">Add Images</button>
+  <button id="remove-item">Remove Images</button>
+  <div id="box-container">
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
